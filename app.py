@@ -11,4 +11,4 @@ def webhook():
         return "EVENT_RECEIVED", 200
     
     else:
-        return "Not Found", 404
+        return "", 404
